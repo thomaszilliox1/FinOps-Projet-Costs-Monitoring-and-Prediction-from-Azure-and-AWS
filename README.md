@@ -1,4 +1,4 @@
-# Projet FinOps Azure – Dashboard prédictif & intelligent  
+# Projet FinOps Azure et AWS – Dashboard prédictif & intelligent  
 
 ## Objectif du projet  
 
