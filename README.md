@@ -7,6 +7,7 @@ Ce projet a pour but de fournir aux décideurs cloud un outil d’aide à la dé
 •	🚨 Détecter automatiquement des anomalies (hausses ou baisses inattendues)  
 •	💡 Fournir des recommandations d’optimisation simples, basées sur des règles FinOps concrètes  
 
+
 Le tout est intégré dans un dashboard Power BI interactif, lisible par des profils non techniques (DSI, FinOps, DevOps…).  
  
 ## Données utilisées  
