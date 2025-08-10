@@ -3,6 +3,7 @@
 ## Objectif du projet  
 
 Ce projet a pour but de fournir aux décideurs cloud un outil d’aide à la décision fondé sur les données réelles de consommation Azure. Il répond à 3 besoins essentiels :  
+
 •	🔮 Prévoir les coûts sur les 3 prochains mois  
 •	🚨 Détecter automatiquement des anomalies (hausses ou baisses inattendues)  
 •	💡 Fournir des recommandations d’optimisation simples, basées sur des règles FinOps concrètes  
@@ -13,6 +14,7 @@ Le tout est intégré dans un dashboard Power BI interactif, lisible par des pro
 ## Données utilisées  
 •	Source : Export Azure Cost Management (CSV ou API)  
 •	Colonnes principales :  
+
 o	UsageDate (date de consommation)  
 o	ServiceName (ex: VM, Storage, App Gateway…)  
 o	CostUSD ou Cost  
@@ -21,6 +23,7 @@ o	Tags (ex: environnement, équipe…)
  
 # Préparation des données  
 Traitements réalisés :  
+
 •	Mise en place d’une table de correspondance pour les valeurs de noms de service, afin d’associer les services provenant de Azure ainsi que de AWS aux mêmes catégories de famille basées sur la norme FOCUS  
 •	Normalisation des dates (YYYY-MM-DD)  
 •	Conversion des coûts en float  
@@ -28,16 +31,21 @@ Traitements réalisés :
 •	Ajout de colonnes dérivées :  
 o	Pourcentage d’évolution d’un mois sur l’autre  
 o	Classement des services par coût  
+
 🔧 Outils : Power Query   
  
 # Détection d’anomalies (approche statistique simple)  
 Méthode utilisée :  
+
 •	Calcul de la différence de coûts entre le mois actuel par rapport au mois précédent pour chaque service du cloud  
+
 Exemple de règle :  
 Si coût du mois actuel > coût du mois précédent multiplié par 2,5, alors anomalie  
+
 Résultat : affichage dans Power BI sous forme de badge rouge ou graphe d’alerte.  
  
 # Prédiction des coûts  
+
 Option 1 – No-code (Power BI)   
 •	Utilisation de la fonction native "Prévision" dans les graphes temporels.  
 •	Activation via clic droit > "Ajouter prévision"  
@@ -51,6 +59,7 @@ Option 2 – Python (modèle plus robuste)
 Avantage : meilleure précision, gestion des tendances longues et effets saisonniers.  
  
 # Recommandations FinOps  
+
 Méthodologie :  
 
 Basée sur des règles métiers interprétables par les équipes opérationnelles.  
