@@ -79,7 +79,7 @@ Storage peu utilisé mais cher	Changement de SKU ou suppression
 ✅ Prochaines évolutions possibles  
 
 •	Connexion directe à l’API Azure Cost Management  
-•	Ajout d’un agent IA FinOps pour répondre à des requêtes en langage naturel (via LangChain ou copilote Power BI)  
+•	**Ajout d’un agent IA** FinOps pour répondre à des requêtes en langage naturel (via LangChain ou copilote Power BI)  
 •	Intégration plus fine des tags FinOps pour filtrage avancé  
  
 📌 Auteur  
