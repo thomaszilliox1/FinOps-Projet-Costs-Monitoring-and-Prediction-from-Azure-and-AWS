@@ -11,8 +11,8 @@ Ce projet a pour but de fournir aux décideurs cloud un outil d’aide à la dé
 
 Le tout est intégré dans un dashboard Power BI interactif, lisible par des profils non techniques (DSI, FinOps, DevOps…).  
  
-## Données utilisées  
-•	Source : Export Azure Cost Management (CSV ou API)  
+## Données utilisées (Données fictives) 
+•	Source : Export Azure Cost Management (CSV ou API), AWS, Cloudhealth 
 •	Colonnes principales :  
 
 o	UsageDate (date de consommation)  
