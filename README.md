@@ -97,5 +97,4 @@ Thomas Zilliox – Data Analyst / FinOps Explorer
 Projet personnel de portfolio, réalisé en 2025 dans le cadre d’une préparation au conseil IA/Data chez Artefact.
  
 
-<img width="470" height="644" alt="image" src="https://github.com/user-attachments/assets/b273a392-f50b-48d3-8a12-145c7b2d6021" />
 
