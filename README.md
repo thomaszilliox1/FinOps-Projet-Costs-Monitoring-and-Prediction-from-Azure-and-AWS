@@ -4,9 +4,9 @@
 
 Ce projet a pour but de fournir aux décideurs cloud un outil d’aide à la décision fondé sur les données réelles de consommation Azure. Il répond à 3 besoins essentiels :  
 
-•	🔮 Prévoir les coûts sur les 3 prochains mois  
-•	🚨 Détecter automatiquement des anomalies (hausses ou baisses inattendues)  
-•	💡 Fournir des recommandations d’optimisation simples, basées sur des règles FinOps concrètes  
+•	Prévoir les coûts sur les 3 prochains mois  
+•	Détecter automatiquement des anomalies (hausses ou baisses inattendues)  
+•	Fournir des recommandations d’optimisation simples, basées sur des règles FinOps concrètes  
 
 
 Le tout est intégré dans un dashboard Power BI interactif, lisible par des profils non techniques (DSI, FinOps, DevOps…).  
@@ -73,10 +73,10 @@ Storage peu utilisé mais cher	Changement de SKU ou suppression
  
 # Structure du Dashboard Power BI  
  
-🏠 Page 1	Vue d’ensemble des coûts (totaux, par service, par famille, par RG)  
-📈 Page 2	Prédictions des coûts avec intervalles de confiance  
-🚨 Page 3	Anomalies détectées (graphiques + tableaux dynamiques)  
-💡 Page 4	Recommandations FinOps avec KPIs et alertes visuelles  
+Page 1	Vue d’ensemble des coûts (totaux, par service, par famille, par RG)  
+Page 2	Prédictions des coûts avec intervalles de confiance  
+Page 3	Anomalies détectées (graphiques + tableaux dynamiques)  
+Page 4	Recommandations FinOps avec KPIs et alertes visuelles  
  
 # Technologies utilisées  
 
@@ -86,13 +86,13 @@ Storage peu utilisé mais cher	Changement de SKU ou suppression
 •	Prophet (Meta) (modèle de prédiction)  
 •	Excel / CSV / API Azure (données brutes)  
  
-✅ Prochaines évolutions possibles  
+# Prochaines évolutions possibles  
 
 •	Connexion directe à l’API Azure Cost Management  
 •	**Ajout d’un agent IA** FinOps pour répondre à des requêtes en langage naturel (via LangChain ou copilote Power BI)  
 •	Intégration plus fine des tags FinOps pour filtrage avancé  
  
-📌 Auteur  
+Auteur  
 Thomas Zilliox – Data Analyst / FinOps Explorer
 Projet personnel de portfolio, réalisé en 2025 dans le cadre d’une préparation au conseil IA/Data chez Artefact.
  
